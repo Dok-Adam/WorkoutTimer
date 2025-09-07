@@ -16,6 +16,11 @@
 			path = WorkoutTimer;
 			sourceTree = "<group>";
 		};
+		604554802E6E2D5600423ED3 /* App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = App;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +37,7 @@
 		604554672E6E2BBB00423ED3 = {
 			isa = PBXGroup;
 			children = (
+				604554802E6E2D5600423ED3 /* App */,
 				604554722E6E2BBB00423ED3 /* WorkoutTimer */,
 				604554712E6E2BBB00423ED3 /* Products */,
 			);
@@ -62,6 +68,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				604554722E6E2BBB00423ED3 /* WorkoutTimer */,
+				604554802E6E2D5600423ED3 /* App */,
 			);
 			name = WorkoutTimer;
 			packageProductDependencies = (
